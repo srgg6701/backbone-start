@@ -1,2 +1,12 @@
-/* Styles go here */
-
+.container{
+    margin: auto;
+}
+.container.clear{
+    float: none;
+}
+header{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /*also prevents margin collapse*/
+    padding-bottom: 20px;
+}

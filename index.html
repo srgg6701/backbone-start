@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Backbone here</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-grid-only/bootstrap.css"/>
     <link rel="stylesheet" href="style.css">
-    <script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script data-require="underscore.js@*" data-semver="1.8.3" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script data-require="backbone.js@*" data-semver="1.1.2" src="    //cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
-  </head>
-
-  <body>
-    <h1>Hello!</h1>
-    <script type="text/template" id="search_template">
-        <div>Name comes here <h4><%=name%></h4></div><input type="text" id="search_input" /><input type="button" id="search_button" value="Search" />
-    </script>   
-    <div id="search_container"></div>
-    <script src="script.js"></script>
-  </body>
+    <script src="node_modules/underscore/underscore-min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/backbone/backbone-min.js"></script>
+</head>
+<body>
+<div class="container clear col-sm-9">
+    <header>
+        <div class="pull-left"><a href="#home">My Backbone App</a></div>
+        <div class="pull-right"><a href="#home">Home</a> | <a href="#about">About Us</a></div>
+    </header>
+    <main>
+        <h1>Hello, Hero.</h1>
+        <p>This is a simplest app, being implemented by using a great JS-library Backbone.js</p>
+        <hr/>
+        <div id="content"></div>
+    </main>
+</div>
+<script src="scripts/script.js"></script>
+</body>
 </html>

@@ -24,8 +24,15 @@ Recreate the project from scratch. Consider using npm:
 
 #Sources
 
+##SitePoint
 [Anatomy of a JavaScript MV* Framework](https://www.sitepoint.com/anatomy-javascript-mv-framework/)
 
 [Backbone.js Basics: Models, Views, Collections and Templates](https://www.sitepoint.com/backbone-basics-models-views-collections-templates/)
 
-[Developing Backbone.js Applications](https://addyosmani.com/backbone-fundamentals/), a book by Addy Osmani ([@addyosmani](https://twitter.com/addyosmani)). 
+##StackOverflow
+[Backbone.js - Getting JSON back from url](http://stackoverflow.com/questions/10925670/backbone-js-getting-json-back-from-url)
+
+[How to get json with backbone.js](http://stackoverflow.com/questions/13068597/how-to-get-json-with-backbone-js)
+
+##Books
+[Developing Backbone.js Applications](https://addyosmani.com/backbone-fundamentals/), Addy Osmani ([@addyosmani](https://twitter.com/addyosmani)). 
